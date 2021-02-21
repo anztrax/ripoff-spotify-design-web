@@ -2,6 +2,8 @@ import React from 'react';
 import NavigationFooterItem from "../footerItem/NavigationFooterItem";
 import styles from './NavigationFooterBar.module.css';
 
+const navigationFooterClassName = 'lg:mr-20 mb-12 flex-1';
+
 let NavigationFooterBar = (props) => {
 	/// handlers
 	const handleOnClickItem = (item) => {
@@ -18,11 +20,11 @@ let NavigationFooterBar = (props) => {
 	}
 
 	return (
-		<div className={'flex'}>
+		<div className={'flex flex-col md:flex-row'}>
 			{props.navigations.map((navigation) => {
 				const { title, items } = navigation;
 				return (
-					<div className={'mr-20'}>
+					<div className={navigationFooterClassName}>
 						{renderFooterHeader(title)}
 						<div className={'mt-4'} />
 						{items.map((item) => {

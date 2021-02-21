@@ -1,11 +1,11 @@
 .landingView{
-    background: url(/images/bursts.svg) no-repeat;
+    /*background: url(/images/bursts.svg) no-repeat;*/
     background-color: #2940a8;
-    background-size: 153%;
-    background-position: right 40% center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    /*background-size: 153%;*/
+    /*background-position: right 40% center;*/
+    /*-webkit-box-pack: center;*/
+    /*-ms-flex-pack: center;*/
+    /*justify-content: center;*/
 }
 
 .landingViewTablet{

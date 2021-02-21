@@ -1,0 +1,25 @@
+.headerText{
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .headerText{
+        display: none;
+    }
+}
+
+@media (min-width: 1024px){
+    .headerText{
+        display: none;
+    }
+}
+
+@media (min-width: 1280px) {
+    .headerText{
+        display: none;
+    }
+}
+
+

@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './HeaderText.module.css';
+import styles from './SmallHeaderText.module.css';
 
-let HeaderText = (props) => {
+let SmallHeaderText = (props) => {
 	return (
 		<h1 className={`text-spotify-green-1 ${styles.headerText} ${(props.className) ? props.className: ''}`}>{props.children}</h1>
 	);
 }
 
-export default HeaderText;
+export default SmallHeaderText;

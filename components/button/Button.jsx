@@ -7,7 +7,7 @@ let Button = ({ children, buttonColor, buttonType, onClick, ...rest }) => {
 
 	switch(buttonColor){
 		case 'green':
-			buttonColorTypeClassName += 'bg-spotify-green-1 text-spotify-blue-1';
+			buttonColorTypeClassName += 'bg-spotify-green-1 text-spotify-blue-1 hover:bg-white delay-75';
 			break;
 		default:
 			break;
@@ -15,7 +15,7 @@ let Button = ({ children, buttonColor, buttonType, onClick, ...rest }) => {
 
 	switch (buttonType){
 		case 'big':
-			buttonDimensionTypeClassName = 'focus:outline-none text-sm py-3 px-8 rounded-full font-semibold';
+			buttonDimensionTypeClassName = 'focus:outline-none text-sm py-3 px-8 rounded-full font-semibold tracking-widest';
 			break;
 		default:
 			break;
