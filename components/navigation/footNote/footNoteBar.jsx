@@ -8,7 +8,7 @@ let FootNoteBar = (props) => {
 				{props.navigations.map((navigation) => {
 					return (
 						<li className={'mr-6 inline-block'}>
-							<a href={navigation.location} target='_blank' className={'text-xxs xs:text-xs text-spotify-gray-1 hover:text-spotify-green-2'}>
+							<a href={"#"} className={'text-xxs xs:text-xs text-spotify-gray-1 hover:text-spotify-green-2'}>
 								{navigation.title}
 							</a>
 						</li>

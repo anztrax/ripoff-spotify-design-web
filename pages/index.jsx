@@ -1,9 +1,13 @@
 import React from 'react';
+import LandingView from "../components/landing/LandingView";
+import SpotifyLayout from "../components/layouts/SpotifyLayout";
 
 let Home = () => {
 	return (
 		<div>
-			<h1>Testing gan</h1>
+			<SpotifyLayout>
+				<LandingView />
+			</SpotifyLayout>
 		</div>
 	);
 }
