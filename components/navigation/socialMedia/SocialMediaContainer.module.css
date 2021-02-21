@@ -1,0 +1,10 @@
+/**
+    kudos : https://codepen.io/sosuke/pen/Pjoqqp
+*/
+
+.socialMediaItem{
+    filter: brightness(0) invert(1);
+}
+.socialMediaItem:hover{
+    filter: invert(53%) sepia(78%) saturate(465%) hue-rotate(89deg) brightness(93%) contrast(92%);
+}
